@@ -4,9 +4,11 @@ This repository is an official PyTorch implementation of "[TED: Two-Stage Expert
 
 ## Introduction
 We design a two-stage interpretable diagnostic framework for MVI in HCC, namely TED, which can simulate the decision-making process of radiologists. Different from the black-box model of direct training, our TED extract four key clinical attributes (CAP, FEN, APTE and TMV) in the first stage and then leverage the predictions simultaneously as a form of attention as well as a form of soft supervision with a variant of triplet loss, to guide the fitting of the MVI diagnosis network.
+
 <img src="figures/img01.png"/>
 
 Sonme visualization of attribute prediction:
+
 <img src="figures/img3.png"/>
 
 

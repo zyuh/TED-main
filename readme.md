@@ -3,7 +3,7 @@
 This repository is an official PyTorch implementation of "[TED: Two-Stage Expert-Guided Interpretable Diagnosis Framework for Microvascular Invasion in Hepatocellular Carcinoma](https://www.sciencedirect.com/science/article/abs/pii/S1361841522002158)" published in Medical Image Analysis 2022.
 
 ## Introduction
-We design a two-stage interpretable diagnostic framework for MVI in HCC, namely TED, which can simulate the decision-making process of radiologists. Different from the black-box model of direct training, our TED extract four key clinical attributes (CAP, FEN, APTE and TMV) in the first stage and then leverage the predictions simultaneously as a form of attention as well as a form of soft supervision with a variant of triplet loss, to guide the fitting of the MVI diagnosis network.
+We design a two-stage interpretable diagnostic framework for MVI in HCC, namely TED, which can simulate the decision-making process of radiologists. Different from the black-box model of direct training, our TED extract four key clinical attributes (CAP, FEN, APTE and TMV)  and biomarkers to guide the training of the MVI diagnosis network.
 
 <img src="figures/img01.png"/>
 
